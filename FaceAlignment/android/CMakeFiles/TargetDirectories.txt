@@ -1,0 +1,1 @@
+/home/austin/work/github/SeetaFaceEngine4Android/FaceAlignment/android/CMakeFiles/seeta_fa_lib.dir

@@ -1,0 +1,1 @@
+/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/seeta_facedet_lib.dir

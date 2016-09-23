@@ -398,10 +398,10 @@ void CCFAN::GetSubImg(const unsigned char *gray_im, int im_width, int im_height,
   int patch_top = std::max((center_y + 1) - patch_size / 2, 0);
   int patch_bottom = std::min((center_y + 1) + patch_size / 2 - 1, im_height - 1);
 
-  int lx = abs(patch_left - ((center_x + 1) - patch_size / 2));
-  int rx = patch_size - abs(patch_right - ((center_x + 1) + patch_size / 2 - 1)) - 1;
-  int ty = abs(patch_top - ((center_y + 1) - patch_size / 2));
-  int by = patch_size - abs(patch_bottom - ((center_y + 1) + patch_size / 2 - 1)) - 1;
+  int lx = std::abs(patch_left - ((center_x + 1) - patch_size / 2));
+  int rx = patch_size - std::abs(patch_right - ((center_x + 1) + patch_size / 2 - 1)) - 1;
+  int ty = std::abs(patch_top - ((center_y + 1) - patch_size / 2));
+  int by = patch_size - std::abs(patch_bottom - ((center_y + 1) + patch_size / 2 - 1)) - 1;
 
   for (int h = ty, ph = patch_top; h < by + 1; h++, ph++)
   {

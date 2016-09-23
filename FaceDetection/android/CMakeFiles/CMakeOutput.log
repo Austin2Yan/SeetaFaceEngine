@@ -1,0 +1,152 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Linux - 3.13.0-32-generic - x86_64
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1261751035/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1261751035.dir/build.make CMakeFiles/cmTryCompileExec1261751035.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1261751035.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec1261751035.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1261751035
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1261751035.dir/link.txt --verbose=1
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTryCompileExec1261751035.dir/src.cxx.o -o cmTryCompileExec1261751035  -L/libs/armeabi-v7a   "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4088490651/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4088490651.dir/build.make CMakeFiles/cmTryCompileExec4088490651.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4088490651.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec4088490651.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4088490651
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4088490651.dir/link.txt --verbose=1
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTryCompileExec4088490651.dir/src.cxx.o -o cmTryCompileExec4088490651  -L/libs/armeabi-v7a   "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec305801286/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec305801286.dir/build.make CMakeFiles/cmTryCompileExec305801286.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec305801286.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec305801286.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec305801286
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec305801286.dir/link.txt --verbose=1
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTryCompileExec305801286.dir/src.cxx.o -o cmTryCompileExec305801286  -L/libs/armeabi-v7a   "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec131977520/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec131977520.dir/build.make CMakeFiles/cmTryCompileExec131977520.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec131977520.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec131977520.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec131977520
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec131977520.dir/link.txt --verbose=1
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTryCompileExec131977520.dir/src.cxx.o -o cmTryCompileExec131977520  -L/libs/armeabi-v7a   "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3910704945/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3910704945.dir/build.make CMakeFiles/cmTryCompileExec3910704945.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3910704945.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec3910704945.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3910704945
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3910704945.dir/link.txt --verbose=1
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTryCompileExec3910704945.dir/src.cxx.o -o cmTryCompileExec3910704945  -L/libs/armeabi-v7a   "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1758239496/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1758239496.dir/build.make CMakeFiles/cmTryCompileExec1758239496.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1758239496.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec1758239496.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1758239496
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1758239496.dir/link.txt --verbose=1
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTryCompileExec1758239496.dir/src.cxx.o -o cmTryCompileExec1758239496  -L/libs/armeabi-v7a   "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "/usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

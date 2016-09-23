@@ -1,0 +1,1 @@
+/home/austin/work/github/SeetaFaceEngine4Android/FaceIdentification/android/CMakeFiles/viplnet.dir

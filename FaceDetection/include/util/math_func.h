@@ -33,7 +33,7 @@
 #define SEETA_FD_UTIL_MATH_FUNC_H_
 
 #ifdef USE_SSE
-#include <immintrin.h>
+//#include <immintrin.h>
 #endif
 
 #include <cstdint>

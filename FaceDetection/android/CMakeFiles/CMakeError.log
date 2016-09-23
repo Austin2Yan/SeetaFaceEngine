@@ -1,0 +1,230 @@
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4178875836/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4178875836.dir/build.make CMakeFiles/cmTryCompileExec4178875836.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4178875836.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -msse4.1 -DOpenMP_FLAG_DETECTED -fopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec4178875836.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse4.1'
+make[1]: *** [CMakeFiles/cmTryCompileExec4178875836.dir/src.cxx.o] 错误 1
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4178875836/fast] 错误 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec935748204/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec935748204.dir/build.make CMakeFiles/cmTryCompileExec935748204.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec935748204.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -msse4.1 -DOpenMP_FLAG_DETECTED -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec935748204.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse4.1'
+make[1]: *** [CMakeFiles/cmTryCompileExec935748204.dir/src.cxx.o] 错误 1
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec935748204/fast] 错误 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec924496630/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec924496630.dir/build.make CMakeFiles/cmTryCompileExec924496630.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec924496630.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -msse4.1 -DOpenMP_FLAG_DETECTED /openmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec924496630.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: /openmp: No such file or directory
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse4.1'
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec924496630.dir/src.cxx.o] 错误 1
+make: *** [cmTryCompileExec924496630/fast] 错误 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec46980718/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec46980718.dir/build.make CMakeFiles/cmTryCompileExec46980718.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec46980718.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -msse4.1 -DOpenMP_FLAG_DETECTED -Qopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec46980718.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse4.1'
+arm-linux-androideabi-g++: error: unrecognized command line option '-Qopenmp'
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec46980718.dir/src.cxx.o] 错误 1
+make: *** [cmTryCompileExec46980718/fast] 错误 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2416438603/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2416438603.dir/build.make CMakeFiles/cmTryCompileExec2416438603.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2416438603.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -msse4.1 -DOpenMP_FLAG_DETECTED -openmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec2416438603.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse4.1'
+make[1]: *** [CMakeFiles/cmTryCompileExec2416438603.dir/src.cxx.o] 错误 1
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2416438603/fast] 错误 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2917810936/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2917810936.dir/build.make CMakeFiles/cmTryCompileExec2917810936.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2917810936.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -msse4.1 -DOpenMP_FLAG_DETECTED -xopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec2917810936.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse4.1'
+make[1]: *** [CMakeFiles/cmTryCompileExec2917810936.dir/src.cxx.o] 错误 1
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2917810936/fast] 错误 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4280065940/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4280065940.dir/build.make CMakeFiles/cmTryCompileExec4280065940.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4280065940.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -msse4.1 -DOpenMP_FLAG_DETECTED +Oopenmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec4280065940.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: +Oopenmp: No such file or directory
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse4.1'
+make[1]: *** [CMakeFiles/cmTryCompileExec4280065940.dir/src.cxx.o] 错误 1
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4280065940/fast] 错误 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec818022891/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec818022891.dir/build.make CMakeFiles/cmTryCompileExec818022891.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec818022891.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -msse4.1 -DOpenMP_FLAG_DETECTED -qsmp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec818022891.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse4.1'
+arm-linux-androideabi-g++: error: unrecognized command line option '-qsmp'
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec818022891.dir/src.cxx.o] 错误 1
+make: *** [cmTryCompileExec818022891/fast] 错误 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec317150744/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec317150744.dir/build.make CMakeFiles/cmTryCompileExec317150744.dir/build
+make[1]: 正在进入目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec317150744.dir/src.cxx.o
+/usr/tools/ndk-r10e/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fexceptions -frtti -Wno-psabi --sysroot=/usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -msse4.1 -DOpenMP_FLAG_DETECTED -mp -fPIE -isystem /usr/tools/ndk-r10e/android-ndk-r10e/platforms/android-19/arch-arm/usr/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /usr/tools/ndk-r10e/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTryCompileExec317150744.dir/src.cxx.o -c /home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-msse4.1'
+arm-linux-androideabi-g++: error: unrecognized command line option '-mp'
+make[1]: *** [CMakeFiles/cmTryCompileExec317150744.dir/src.cxx.o] 错误 1
+make[1]:正在离开目录 `/home/austin/work/github/SeetaFaceEngine4Android/FaceDetection/android/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec317150744/fast] 错误 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

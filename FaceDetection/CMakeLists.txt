@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.1.0)
 
-project(seeta_facedet_lib)
+#project(seeta_facedet_lib)
+project(SeetaFace)
 
 # Build options
 option(BUILD_EXAMPLES  "Set to ON to build examples"  ON)
